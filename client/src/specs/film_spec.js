@@ -1,7 +1,7 @@
-const Film = require('../film');
-const assert = require('assert');
+const Film = require("../film");
+const assert = require("assert");
 
-describe('Film', function () {
+describe("Film", function () {
   const film;
 
   beforeEach(function () {
@@ -11,7 +11,7 @@ describe('Film', function () {
     });
   });
 
-  it('should have title titanic', function () {
+  it("should have title titanic", function () {
     assert.equal(film.title, "Titanic");
   });
 

@@ -1,5 +1,5 @@
-const Film = require('./film');
-const Review = require('./review');
+const Film = require("./film");
+const Review = require("./review");
 
 const Films = function(){
 
@@ -29,6 +29,6 @@ const Films = function(){
   film2.addReview(review2);
 
   return [film1, film2];
-}
+};
 
 module.exports = Films;
